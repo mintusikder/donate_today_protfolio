@@ -67,18 +67,42 @@
     margin-bottom: 50px;
 }
 
+
 .donate {
-    display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    gap: 22px;
 }
 
-.donate-price {
-    border: 1px solid red;
-    padding: 30px;
+ul li {
+    /* border: 1px solid red; */
+    padding-top: 40px;
     background: #FAFAFA;
     border-radius: 5px;
-    margin-bottom: 60px;
+    margin: 0 30px 60px 0;
+    width: 135px;
+    height: 123px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+ul li:hover {
+    border: 2px solid #FF5959;
+    background: #FFEEEE;
+}
+
+/* amount-details------------- */
+.amount-details {
+    text-align: center;
+}
+
+hr {
+    margin: 9px 0 30px 0;
+}
+
+.amount {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
 }
