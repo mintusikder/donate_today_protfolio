@@ -1,44 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.primary-btn{
+
+.primary-btn {
     font-weight: 600;
-font-size: 20px;
-border: none;
-padding: 16px 20px;
-border-radius: 5px;
-background: #FF5959;
-color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 16px 20px;
+    border-radius: 5px;
+    background: #FF5959;
+    color: #fff;
 }
+
 /* header section------------------- */
-.header{
-    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4) ), url(../images/donation9.jpg) no-repeat;
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/donation9.jpg) no-repeat;
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    position:relative ;
+    position: relative;
 }
-.header-details{
+
+.header-details {
     position: absolute;
     margin: 15% 30%;
     text-align: center;
     color: white;
 }
-.header-title{
+
+.header-title {
     font-size: 40px;
     font-weight: 700;
 }
-.header-description{
+
+.header-description {
     margin: 20px 0 30px 0;
     font-weight: 400;
-font-size: 18px;
-text-align: center;
+    font-size: 18px;
+    text-align: center;
 }
+
 /* header section end--------------- */
+.donate-today-details {
+    margin: 130px 0 20px 0;
+    text-align: center;
+
+}
+
+.donate-today-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.donate-today-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.donate {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.donate-price {
+    border: 1px solid red;
+    padding: 30px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
